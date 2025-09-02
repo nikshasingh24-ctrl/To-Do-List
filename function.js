@@ -4,10 +4,10 @@ function add(){
   if(work === ""){alert(enter a task")};
   let item = document.createElement("li");
   item.textContent = "work";
-  document.getElementById("todo").appendChild("item");
+  document.getElementById("todo").appendChild(item);
                   let delbtn = document.createElement("button");
                   delbtn.textContent = "Delete task";
                   delbtn.onclick = item.remove();
-                  li.appendChild("delbtn");
+                  item.appendChild(delbtn);
 }
   
