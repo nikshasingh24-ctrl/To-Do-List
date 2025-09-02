@@ -13,5 +13,10 @@ function add(){
                   let box = document.createElement("input");
                   box.type = "checkbox"
                   item.appendChild(box)
+
+                  
 }
   
+function clearall(){
+  let ul = document.getElementById("todo");
+  ul.remove();};
