@@ -11,8 +11,8 @@ function add(){
                   item.appendChild(delbtn);
 
                   let box = document.createElement("input");
-                  box.type = "checkbox"
-                  item.appendChild(box)
+                  box.type = "checkbox";
+                  item.appendChild(box);
 
                   
 }
