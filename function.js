@@ -2,6 +2,7 @@ function add(){
   let input = document.getElementById("task");
   let work = input.value;
   if(work === ""){alert("enter a task")
+                  return;
                  }
   let item = document.createElement("li");
   item.textContent = work;
