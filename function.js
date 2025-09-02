@@ -5,6 +5,9 @@ function add(){
   let item = document.createElement("li");
   item.textContent = "work";
   document.getElementById("todo").appendChild("item");
-                  let delbtn = document.createElement("button")
+                  let delbtn = document.createElement("button");
+                  delbtn.textContent = "Delete task";
+                  delbtn.onclick = item.remove();
+                  li.appendChild("delbtn");
 }
   
