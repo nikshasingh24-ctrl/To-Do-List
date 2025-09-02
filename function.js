@@ -4,6 +4,7 @@ function add(){
   if(work === ""){alert("enter a task")
                   return;
                  }
+  input.value = "";
   let item = document.createElement("li");
   item.textContent = work;
   document.getElementById("todo").appendChild(item);
