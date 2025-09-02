@@ -1,7 +1,7 @@
 function add(){
   let input = document.getElementById("task");
   let work = input.value;
-  if(work === ""){alert(enter a task")
+  if(work === ""){alert("enter a task")
                  }
   let item = document.createElement("li");
   item.textContent = work;
