@@ -9,5 +9,9 @@ function add(){
                   delbtn.textContent = "Delete task";
                   delbtn.onclick = item.remove();
                   item.appendChild(delbtn);
+
+                  let box = document.createElement("input");
+                  box.type = "checkbox"
+                  item.appendChild(box)
 }
   
