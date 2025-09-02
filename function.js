@@ -19,4 +19,4 @@ function add(){
   
 function clearall(){
   let ul = document.getElementById("todo");
-  ul.remove();};
+  ul.innerHTML = "";}
