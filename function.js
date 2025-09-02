@@ -5,5 +5,6 @@ function add(){
   let item = document.createElement("li");
   item.textContent = "work";
   document.getElementById("todo").appendChild("item");
+                  let delbtn = document.createElement("button")
 }
   
